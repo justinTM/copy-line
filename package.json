@@ -2,7 +2,7 @@
   "name": "copy-line",
   "displayName": "Copy Line",
   "publisher": "qinhaoyu",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Copy file path and line numbers to clipboard. Perfect for collaborating with AI assistants to locate code.",
   "engines": {
     "vscode": "^1.104.0"
@@ -74,7 +74,12 @@
       "properties": {
         "copy-line.outputFormat": {
           "type": "string",
-          "enum": ["labeled", "compact", "code-style", "natural"],
+          "enum": [
+            "labeled",
+            "compact",
+            "code-style",
+            "natural"
+          ],
           "default": "labeled",
           "description": "输出格式：labeled(如: File: src/file.ts (line 24-30)), compact(如: src/file.ts:24-30), code-style(如: src/file.ts:24:30), natural(如: 在 src/file.ts 的第 24 行)"
         },
