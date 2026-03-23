@@ -1,0 +1,9 @@
+{
+  "copyLine.command.title": "Copy Selection Reference",
+  "copyLine.configuration.title": "Copy Line",
+  "copyLine.configuration.outputFormat.description": "Output format: labeled (for example, File: src/file.ts (line 24-30)), compact (for example, src/file.ts:24-30), code-style (for example, src/file.ts:24:30), natural (for example, at line 24 in src/file.ts).",
+  "copyLine.configuration.useAbsolutePath.description": "Use an absolute path instead of a relative path.",
+  "copyLine.configuration.showStatusMessage.description": "Show a status bar message after copying.",
+  "copyLine.configuration.singleLineFormat.description": "Format used for a single-line selection.",
+  "copyLine.configuration.multiLineFormat.description": "Format used for a multi-line selection."
+}

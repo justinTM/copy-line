@@ -40,7 +40,7 @@
     "commands": [
       {
         "command": "copy-line.copySelectionReference",
-        "title": "复制选中文件与行号",
+        "title": "%copyLine.command.title%",
         "icon": "$(go-to-file)"
       }
     ],
@@ -70,7 +70,7 @@
     ],
     "configuration": {
       "type": "object",
-      "title": "Copy Line",
+      "title": "%copyLine.configuration.title%",
       "properties": {
         "copy-line.outputFormat": {
           "type": "string",
@@ -81,27 +81,27 @@
             "natural"
           ],
           "default": "labeled",
-          "description": "输出格式：labeled(如: File: src/file.ts (line 24-30)), compact(如: src/file.ts:24-30), code-style(如: src/file.ts:24:30), natural(如: 在 src/file.ts 的第 24 行)"
+          "description": "%copyLine.configuration.outputFormat.description%"
         },
         "copy-line.useAbsolutePath": {
           "type": "boolean",
           "default": false,
-          "description": "使用绝对路径而非相对路径"
+          "description": "%copyLine.configuration.useAbsolutePath.description%"
         },
         "copy-line.showStatusMessage": {
           "type": "boolean",
           "default": true,
-          "description": "复制后显示状态栏提示消息"
+          "description": "%copyLine.configuration.showStatusMessage.description%"
         },
         "copy-line.singleLineFormat": {
           "type": "string",
           "default": "line ${line}",
-          "description": "单行选择时的格式"
+          "description": "%copyLine.configuration.singleLineFormat.description%"
         },
         "copy-line.multiLineFormat": {
           "type": "string",
           "default": "line ${start}-${end}",
-          "description": "多行选择时的格式"
+          "description": "%copyLine.configuration.multiLineFormat.description%"
         }
       }
     }

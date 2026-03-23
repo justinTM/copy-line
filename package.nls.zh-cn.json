@@ -1,0 +1,9 @@
+{
+  "copyLine.command.title": "复制选中文件与行号",
+  "copyLine.configuration.title": "Copy Line",
+  "copyLine.configuration.outputFormat.description": "输出格式：labeled（例如：File: src/file.ts (line 24-30)）、compact（例如：src/file.ts:24-30）、code-style（例如：src/file.ts:24:30）、natural（例如：在 src/file.ts 的第 24 行）。",
+  "copyLine.configuration.useAbsolutePath.description": "使用绝对路径而非相对路径。",
+  "copyLine.configuration.showStatusMessage.description": "复制后显示状态栏提示消息。",
+  "copyLine.configuration.singleLineFormat.description": "单行选择时的格式。",
+  "copyLine.configuration.multiLineFormat.description": "多行选择时的格式。"
+}
